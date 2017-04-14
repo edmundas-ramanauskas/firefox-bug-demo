@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "bug_report",
+    "version": "0.0.1",
+    "description": "Bug Report",
+    "icons": {
+        "16": "engine16.png",
+        "32": "engine32.png",
+        "48": "engine48.png",
+        "64": "engine64.png",
+        "96": "engine96.png",
+        "128": "engine128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "engine16.png",
+            "32": "engine32.png",
+            "48": "engine48.png",
+            "64": "engine64.png",
+            "96": "engine96.png",
+            "128": "engine128.png"
+          },
+          "default_title": "Bug Report",
+          "default_popup": "popup.html"
+    },
+    "author": "edmundas",
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+    "permissions": ["activeTab"]
+}
